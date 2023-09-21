@@ -30,7 +30,14 @@ img {
 
 
 
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -131,9 +138,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-section {
@@ -261,7 +268,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: -30px;
 }
 
-.features-item{
+.features-item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-top: 30px;
@@ -286,7 +293,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: -30px;
 }
 
-.what-we-do-item{
+.what-we-do-item {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
@@ -304,7 +311,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-align: center;
 }
 
-.team-social-list { 
+.team-social-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +332,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     align-items: center;
     justify-content: center;
     background-color: var(--iriscolor);
-    color: var(--cloudcolor);    
+    color: var(--cloudcolor);
 }
 
 .team-social-link:hover,
@@ -470,6 +477,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .footer-socials-sgv {
     fill: var(--cloudcolor);
 }
+
 /* CSS for Portfolio */
 
 .filter {
